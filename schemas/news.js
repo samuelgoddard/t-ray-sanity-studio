@@ -13,6 +13,12 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: "External URL",
+      description: "URL if this is an external article and doesn't need internal routing, eg: 'http://voyagemia.com/interview/meet-t-ray-armstrong-former-drummer-vocalist/' - ! LEAVE BLANK if it's an internal article",
+      name: "externalUrl",
+      type: "url"
+    },
+    {
       title: "Post Date",
       description: "Press the button to the right to pick a date.",
       name: "date",
