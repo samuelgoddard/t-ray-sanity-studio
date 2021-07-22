@@ -7,6 +7,7 @@ export default {
       name: 'text',
       type: 'string',
       title: 'Text',
+      validation: Rule => Rule.required()
     }
   ]
 }

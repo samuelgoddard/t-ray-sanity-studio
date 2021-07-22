@@ -7,6 +7,7 @@ export default {
       title: "Image",
       name: "image",
       type: 'image',
+      validation: Rule => Rule.required()
     },
   ]
 }
