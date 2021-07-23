@@ -25,10 +25,10 @@ export default {
       validation: Rule => Rule.required()
     },
     {
-      title: "Video Snippet URL",
+      title: "Video Snippet",
       name: "videoSnippetUrl",
-      description: 'The direct link to the vimeo video snippet (optional)"',
-      type: "url",
+      description: 'The optional video snippet (keep file size low)"',
+      type: "file",
     },
     {
       title: "Release Date",
