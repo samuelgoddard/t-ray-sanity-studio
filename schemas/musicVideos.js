@@ -11,6 +11,13 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: "URL",
+      name: "url",
+      description: 'Link to the video, eg: "https://www.youtube.com/watch?v=_lXXJFTpupM"',
+      type: "url",
+      validation: Rule => Rule.required()
+    },
+    {
       title: "Teaser Image",
       name: "teaserImage",
       description: "The image that appears in the news listing",
