@@ -25,6 +25,12 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: "Video Snippet URL",
+      name: "videoSnippetUrl",
+      description: 'The direct link to the vimeo video snippet (optional)"',
+      type: "url",
+    },
+    {
       title: "Release Date",
       description: "Press the button to the right to pick a date.",
       name: "date",
