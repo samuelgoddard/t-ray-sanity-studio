@@ -28,6 +28,12 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: "Sold Out?",
+      description: "Toggling this on will flag this date as sold out",
+      name: "soldOut",
+      type: "boolean"
+    },
+    {
       title: "Book Tickets URL",
       name: "url",
       type: "url"
