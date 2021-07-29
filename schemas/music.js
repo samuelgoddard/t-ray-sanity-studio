@@ -13,6 +13,12 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: "Featured Release?",
+      description: "If this is toggled this will be the 'featured' release at the top of the Music page, please only have one featured at a time.",
+      name: "featured",
+      type: "boolean"
+    },
+    {
       title: "Cover Artwork",
       name: "coverArtwork",
       type: "image",
