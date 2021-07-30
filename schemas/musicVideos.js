@@ -4,6 +4,12 @@ export default {
   type: "document",
   fields: [
     {
+      name: "order",
+      title: "Order",
+      type: "number",
+      hidden: true,
+    },
+    {
       title: "Title",
       description: "The name of this music video",
       name: "title",
